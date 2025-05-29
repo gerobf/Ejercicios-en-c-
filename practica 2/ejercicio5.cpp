@@ -31,7 +31,7 @@ int main (){
 
     cout<<"la cantidad de alumnos total: "<<cantidadTotal<<endl;
     cout<<"la cantidad de alumnos con promedio mayos a 6.5 es : "<< cantidadProm65<<endl;
-    cout<<"el porcentaje de alumnos con promedio mayor a 8.5 y ledajo menor a 2500: "<<porcentajeDestacados<<endl;
+    cout<<"el porcentaje de alumnos con promedio mayor a 8.5 y legajo menor a 2500: "<<porcentajeDestacados<<endl;
     return 0;
 
 }

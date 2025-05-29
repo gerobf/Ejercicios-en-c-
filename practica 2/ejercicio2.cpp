@@ -7,13 +7,13 @@ ejemplo, si se ingresan los valores 4, -10 y 12, deberá imprimir:
 using namespace std;
 int main(){
     int num1, num2, num3;
-    cout<<"ingresar 3 numeros enteros: ";
-    cin>>num1;
-    cin>>num2;
+    cout<<"ingresar 3 numeros enteros: "; 
+    cin>>num1;                             
+    cin>>num2;             
     cin>>num3;
     if(num1 > num2 && num1 > num3){
         if(num2 > num3){
-            cout<<num1 << num2<< num3;
+            cout<<num1 <<" "<< num2<<" "<< num3;
         }else{
             cout<< num1 << num3 << num2;
         }
